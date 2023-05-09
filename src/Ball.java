@@ -39,13 +39,18 @@ public class Ball extends JPanel {
                 else {
                     y += 1;
                 }
-           
+        if((y==700&&x>120)&&(y==700&&x<300))
+        {
+            x=300;
+            y=300;
+        }
+        if((y==20&& x>120)&& (y==20&&x<300))
+                {
+                    x=300;
+                    y=400;
+                }
                 repaint();
             }
-
-
-
-
 
     @Override
     protected void paintComponent(Graphics g) {

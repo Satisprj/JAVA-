@@ -24,7 +24,7 @@ public class Graphics {
 frame.setVisible(true);
         while (true){
             ball.Core();
-            Thread.sleep(10);
+            Thread.sleep(5);
         }
 
 
